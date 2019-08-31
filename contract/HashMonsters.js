@@ -12,7 +12,7 @@ class HashMonsters{
         this.duelistNiNaru(publisher);
     }
 
-    duelistNiNaru(duelistName){
+    _duelistNiNaru(duelistName){
         const hash = IOSTCrypto.sha3(duelistName);
         const duelistInfo = {
             HP: 20,
@@ -29,7 +29,7 @@ class HashMonsters{
         return duelistInfo;
     }
 
-    duelGaHajimaru(duelist1, duelist2, nonce){
+    _duelGaHajimaru(duelist1, duelist2, nonce){
         const duelId = IOSTCrypto.sha3( duelist1 + duelist2 +  nonce);
         const duelInfo = {
             senko: duelist1,
