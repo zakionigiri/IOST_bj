@@ -1,1 +1,0 @@
-iwallet publish -a admin HashMonsters.js HashMonsters.js.abi --gas_limit 4000000  Contract7SwF35KRBA5xrq5apg7V7DwT3gVmjLCz9PyCeV116Qvx --update   --chain_id 1020
